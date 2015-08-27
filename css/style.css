@@ -1,4 +1,4 @@
-html, body, header, section, article, div, nav, img, li, a, h1, h3, h4, p {
+html, body, header, section, article, div, nav, img, ul, li, a, h1, h3, h4, p {
 	padding: 0;
 	margin: 0 auto;
 	font-family: 'Source Sans Pro', sans-serif;
@@ -11,16 +11,8 @@ html, body, header, section, article, div, nav, img, li, a, h1, h3, h4, p {
 	padding-bottom: .6em;
 }
 
-a {
-	text-decoration: none;
-	color: #66CCFF;
-}
-
-ul{
-	list-style-type: none;
-}
-
 li{
+	list-style-type: none;
 	padding-right: .75em;
 }
 
@@ -46,38 +38,6 @@ h4{
 
 p {
 	padding: .5em 0;
-}
-
-ol {
-	list-style-type: decimal;
-}
-
-ol>li{
-	padding-bottom: 0.3em;
-}
-
-/*#project-list{
-	padding-left: 2.2em;
-}
-*/
-
-#nav-list{
-	padding-left: 0;
-}
-
-#nav-list>li{
-	float: left;
-}
-
-#project-list>li{
-	padding-bottom: 0.4em;
-	font-size: 1.1em;
-	list-style-type: decimal;
-}
-
-#line{
-	height: 0.1em;
-	background-color: #FFFFFF;
 }
 
 #title-color{
@@ -108,66 +68,4 @@ ol>li{
 #extra-color {
 	background-color: #FF6666;
 	padding: 0.5em 0;
-}
-
-#projects-color {
-	background-color: #CCCCCC;
-	padding: 0.5em 0;
-}
-
-#learning-color{
-	background-color: #B3B3B3;
-	padding: 0.5em 0;
-}
-
-#procedures-color{
-	background-color: #999999;
-	padding: 0.5em 0;
-}
-
-#tech {
-	padding-top: .75em;
-	color: #fff;
-}
-
-#lab-rules {
-	background-color: #FF6666;
-	padding: 0.5em 0;
-}
-
-#fonts{
-	background-color: #66FFCC;
-	padding: 0.5em 0;
-}
-
-#blueline{
-	background-color: #66CCFF;
-	padding: 0.5em 0;
-}
-
-#blueline>section>p>a{
-	color: #fff;
-}
-
-#white {
-	color: #fff;
-}
-
-#grades {
-	background-color: #999999;
-	padding: 0.5em 0;
-}
-
-#anatomy {
-	min-width: 100%;
-	border-spacing: 1em;
-	padding: 0.5em 0;
-}
-
-/*RESPONSIVE ADJUSTMENTS*/
-
-@media (max-width: 50em) {
-	#nav-list>li{
-		float: none;
-	}
 }
