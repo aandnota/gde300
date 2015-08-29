@@ -11,6 +11,14 @@ html, body, header, section, article, div, nav, img, li, a, h1, h3, h4, p {
 	padding-bottom: .6em;
 }
 
+.title{
+	margin-top: 1em;
+}
+
+.wrap {
+	width: 100%;
+}
+
 a {
 	text-decoration: none;
 	color: #66CCFF;
@@ -54,6 +62,16 @@ ol {
 
 ol>li{
 	padding-bottom: 0.3em;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td {
+	border: .5px solid #fff;
+	padding: 0.5rem;
+
 }
 
 /*#project-list{
@@ -162,6 +180,10 @@ ol>li{
 	min-width: 100%;
 	border-spacing: 1em;
 	padding: 0.5em 0;
+}
+
+#rubric {
+	padding-top: 0.2em;
 }
 
 /*RESPONSIVE ADJUSTMENTS*/
