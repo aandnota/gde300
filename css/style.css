@@ -15,6 +15,10 @@ html, body, header, section, article, div, nav, img, li, a, h1, h3, h4, p {
 	margin-top: 1em;
 }
 
+.table-title{
+	padding: 1em 0 .25em 0;
+}
+
 .wrap {
 	width: 100%;
 }
@@ -22,6 +26,8 @@ html, body, header, section, article, div, nav, img, li, a, h1, h3, h4, p {
 a {
 	text-decoration: none;
 	color: #66CCFF;
+	-webkit-transition: 2s;
+	transition: 2s;
 }
 
 ul{
@@ -43,8 +49,15 @@ h1{
 h3{
 	font-weight: 300;
 	font-size: 1.5em;
-	padding: .2em 0;
+	padding: .25em 0;
 }
+
+/*h3:before{
+	display: block;
+	content: " ";
+	margin-top: 4.25em;
+	visibility: hidden;
+}*/
 
 h4{
 	font-weight: 300;
@@ -99,13 +112,19 @@ td {
 }
 
 #title-color{
+	margin-top: 4em;
 	padding-bottom: .25em;
+	padding-top: 0.5em;
 }
 
 #nav-color {
 	background-color: #E6E6E6;
 	padding-top: 0.5em;
-	padding-bottom: 0.5em;
+	padding-bottom: 0.25em;
+	position: fixed;
+	top: 0;
+	/*left: 50%;*/
+	width: 100%;
 }
 
 #summary-color{
@@ -184,6 +203,14 @@ td {
 
 #rubric {
 	padding-top: 0.2em;
+}
+
+#important{
+	color: #FF6666;
+}
+
+#projects-cal{
+	background-color: #FF6666;
 }
 
 /*RESPONSIVE ADJUSTMENTS*/
