@@ -100,6 +100,10 @@ td {
 	float: left;
 }
 
+#nav-menu{
+	display: none;
+}
+
 #project-list>li{
 	padding-bottom: 0.4em;
 	font-size: 1.1em;
@@ -126,6 +130,9 @@ td {
 	/*left: 50%;*/
 	width: 100%;
 }
+
+
+
 
 #summary-color{
 	background-color: #CCCCCC;
@@ -220,8 +227,30 @@ td {
 
 /*RESPONSIVE ADJUSTMENTS*/
 
-@media (max-width: 50em) {
+@media (max-width: 800px) {
 	#nav-list>li{
 		float: none;
 	}
+
+	#nav-color{
+		left: -100vw;
+	}
+
+	#nav-color:target{
+		left: 0;
+	}
+	
+	.main-nav{
+		transition: left 0.3s ease;
+	}
+
+	#title-color{
+		margin-top: 0;
+	}
+
+	#nav-menu{
+		display: inline;
+	}
+
+
 }
